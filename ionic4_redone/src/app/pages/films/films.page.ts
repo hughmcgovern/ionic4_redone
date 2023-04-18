@@ -15,11 +15,6 @@ export class FilmsPage implements OnInit {
   ngOnInit() {
   }
 
-  openDetails(){
-    this.router.navigateByUrl(`/tabs/films/42`);
-  }
-  gotoPlanets(){
-    this.navController.navigateRoot(`/tabs/planets`)
-  }
+  
 
 }
